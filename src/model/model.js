@@ -220,61 +220,61 @@ export const posts = [
   },
   //check
   {
-    filename: "21.jpg",
+    filename: "21.png",
     title: "Isra-Parody Country = Joke",
     tags: ["Pornographic", "Naiveness"],
   },
 
   {
-    filename: "22.jpg",
+    filename: "22.png",
     title: "Is it Illegal to Defend Myself?",
     tags: ["FAKR", "FakeNews"],
   },
 
   {
-    filename: "23.jpg",
+    filename: "23.png",
     title: "Is the Koran Approves this Sh*t?",
     tags: ["Nazi", "NeoNazi", "SHAME", "Koran", "Islam", "Religion"],
   },
 
   {
-    filename: "24.jpg",
+    filename: "24.png",
     title: "Pro-Palestine = Criminals",
     tags: ["CRIME", "Vandalists"],
   },
 
   {
-    filename: "25.jpg",
+    filename: "25.png",
     title: "May Hell be with You",
     tags: ["BloodShoes", "WarCrime"],
   },
 
   {
-    filename: "26.jpg",
+    filename: "26.jpeg",
     title: "Where are you UN Woman?",
     tags: ["WomanRights", "RIGHTS"],
   },
 
   {
-    filename: "27.jpg",
+    filename: "27.png",
     title: "Did you already forget the Holocaust?",
     tags: ["Jews", "Holocaust"],
   },
 
   {
-    filename: "28.jpg",
+    filename: "28.png",
     title: "You Don’t Know Nothing",
     tags: ["HAMAS", "Foolish"],
   },
 
   {
-    filename: "29.jpg",
+    filename: "29.png",
     title: "Would You Burn Your Child for a Dinner? Why Not?",
     tags: ["BURN", "CHILD", "ALIVE"],
   },
 
   {
-    filename: "30.jpg",
+    filename: "30.png",
     title: "FREE PALESTINE JOKE",
     tags: ["USELESS", "NoWhatToFree"],
   },
