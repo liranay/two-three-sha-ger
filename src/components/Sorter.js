@@ -11,7 +11,15 @@ export default function Sorter({ sortSelected }) {
   return (
     <div>
       <Dropdown onSelect={handleSelect}>
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+        <Dropdown.Toggle
+          variant="success"
+          id="dropdown-basic"
+          style={{
+            background: "rgb(127, 179, 255)",
+            borderColor: "rgb(127, 179, 255)",
+            color: "rgb(39, 39, 42)",
+          }}
+        >
           {value}
         </Dropdown.Toggle>
 
