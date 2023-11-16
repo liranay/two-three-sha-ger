@@ -15,9 +15,9 @@ function Post({ title, description, fileName, tags }) {
       <h6>{tags.map((tag) => `#${tag} `)}</h6>
 
       <div style={{ display: "flex", margin: "15px" }}>
-        <FavoriteBorderIcon />
+        {/* <FavoriteBorderIcon /> */}
         <ShareIcon style={{ marginLeft: "5px" }} />
-        <CommentIcon style={{ marginLeft: "5px" }} />
+        {/* <CommentIcon style={{ marginLeft: "5px" }} /> */}
         <BookmarkBorderIcon style={{ marginLeft: "5px" }} />
       </div>
     </div>
