@@ -1,23 +1,24 @@
-import React from "react";
-
+import React, { useState } from "react";
+import {Image} from "react-bootstrap";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
 import CommentIcon from "@mui/icons-material/Comment";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
-function Post({ username, caption, imageUrl }) {
+
+function Post({ title, description, fileName }) {
+  // console.log(url);
+
   return (
     <div className="post">
-      {/* Image */}
-      <img className="post__image" src={imageUrl} alt="" />
-      {/* Username + caption */}
+      <img className="post__image" src={`/photos/${fileName}`} alt="dsa" />
       <h4 className="post__text">
-        <strong>{username}</strong> {caption}
+        <strong>{title}</strong> {description}
       </h4>
-      <div style={{ display: "flex", margin:"15px" }}>
+      <div style={{ display: "flex", margin: "15px" }}>
         <FavoriteBorderIcon />
-        <ShareIcon style={{marginLeft: "5px"}}/>
-        <CommentIcon style={{marginLeft: "5px"}}/>
-        <BookmarkBorderIcon style={{marginLeft: "5px"}}/>
+        <ShareIcon style={{ marginLeft: "5px" }} />
+        <CommentIcon style={{ marginLeft: "5px" }} />
+        <BookmarkBorderIcon style={{ marginLeft: "5px" }} />
       </div>
     </div>
   );
