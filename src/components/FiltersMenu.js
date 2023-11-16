@@ -24,12 +24,9 @@ function FilterOptions({ options }) {
   );
 }
 
-function clearSelection () {
-
-}
 
 function FiltersMenu() {
-  const [filters] = useState([
+  const [filters, filtersSet] = useState([
     {
       title: "Language",
       options: ["Arabic", "English", "Hebrew"]
@@ -57,7 +54,7 @@ function FiltersMenu() {
     </Accordion>
     <span style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", width: "100%"}}>
       <Button variant="secondary"  style={{margin: "6px 6px"}}>Apply</Button>
-      <Button variant="secondary" style={{margin: "0px 6px 6px"}} onClick={clearSelection}>Clear</Button>
+      <Button variant="secondary" style={{margin: "0px 6px 6px"}}>Clear</Button>
     </span>
     </Form>
   );

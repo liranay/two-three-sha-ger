@@ -42,12 +42,8 @@ function Menu() {
           </div>
         </Navbar.Brand>
         <Navbar.Text>
-
           <strong><div style={{fontSize: "20px", }}>{getTimeSinceWar()} Days</div></strong>
-          <div>
-            since the war started
-          </div>
-
+          <div>since the war started</div>
         </Navbar.Text>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
