@@ -1,10 +1,9 @@
-import { useState } from "react";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import * as model from "../model/model";
 import Tag from "./Tag";
 
 function Filter({tagSelected}) {
-  const [tags, setTags] = useState(model.tags);
+  const tags = model.getTags();
 
   return (
     <div>

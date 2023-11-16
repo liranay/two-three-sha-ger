@@ -1,17 +1,4 @@
-export const tags = [
-  "tError",
-  "Ethnic Cleansing",
-  "JournalISISt",
-  "ISISefire",
-  "SJW = Social Justice Warrior",
-  "PosTear",
-  "TunnHell",
-  "Westurn",
-  "Sheildren",
-  "Kidnapping",
-  "Propagaza",
-  "Woke",
-];
+import _ from "lodash";
 
 export const LANGUAGE = {
   ENGLISH: "english",
@@ -88,8 +75,7 @@ export const posts = [
   },
   {
     filename: "9.jpg",
-    title:
-      "What does the Red Cross do for human rights?",
+    title: "What does the Red Cross do for human rights?",
     description: `Yesterday?
     Today?
     
@@ -104,13 +90,13 @@ export const posts = [
     We are facing a religious and cultural war against Western culture.
     
     We must unite against this radical hate. Western Culture will prevail. 🌎`,
-    tags: ["BringThemHomeNow" , "Hostages"],
+    tags: ["BringThemHomeNow", "Hostages"],
   },
   {
     filename: "10.jpg",
     title: "Am Israel Chai",
     description: ``,
-    tags: ["BringThemHomeNow" , "Hostages"],
+    tags: ["BringThemHomeNow", "Hostages"],
   },
   {
     filename: "11.jpg",
@@ -123,5 +109,9 @@ export const posts = [
     Credit: Yana Yanuchka`,
     tags: ["TheWestIsNext"],
   },
-  
 ];
+
+export const getTags = () => {
+  const allTags = _.flatMap(posts.map((post)=>post.tags));
+  return allTags;
+};
