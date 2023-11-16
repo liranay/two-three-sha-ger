@@ -1,11 +1,15 @@
-import { Badge, Dropdown } from "react-bootstrap";
+import { Badge, Dropdown, Button } from "react-bootstrap";
 import { useState } from "react";
+import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 function Tag() {
   return (
-    <h1 style={{ margin: "10px" }}>
-      <Badge bg="primary">New</Badge>
-    </h1>
+    <span
+      style={{ margin: "8px", height: "40px", width: "100px" }}
+      class="badge rounded-pill bg-primary"
+    >
+      Primary
+    </span>
   );
 }
 
@@ -14,12 +18,15 @@ function Tags() {
 
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        {tags.map((tag, index) => {
-          return <Tag />;
-        })}
-      </div>
+      <div style={{ display: "flex" }}>
+        <FilterAltIcon />
 
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          {tags.map((tag, index) => {
+            return <Tag />;
+          })}
+        </div>
+      </div>
       <div>
         <Dropdown>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
