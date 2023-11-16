@@ -24,13 +24,13 @@ export const posts = [
   {
     filename: "1.jpeg",
     title: "Who is the villain?",
-    description: "This is the first post",
+    // description: "",
     tags: ["shieldren"],
   },
   {
     filename: "2.jpeg",
     title: "Same Jihadist terror, different years.",
-    description: "This is the first post",
+    // description: "This is the first post",
     tags: ["tError", "HamasisISIS", "TheWestIsNext"],
   },
   {
@@ -41,13 +41,13 @@ export const posts = [
     tags: ["Westurn", "Woke", "ProPalestineRally", "StandWithIsrael"],
   },
   {
-    filename: "4.jpeg",
+    filename: "4.jpg",
     title: "This is not human. Right(s)?.",
     // description: "This is the first post",
     tags: ["Shieldren"],
   },
   {
-    filename: "5.jpeg",
+    filename: "5.jpg",
     title:
       "After all hostages—men, women, and children—are immediately released and safely return to Israel.",
     description: `
@@ -56,13 +56,13 @@ export const posts = [
     tags: ["CeasefireNOW"],
   },
   {
-    filename: "6.jpeg",
+    filename: "6.jpg",
     title: "Is this your strategic shielding?",
     // description: "This is the first post",
     tags: ["Shieldren"],
   },
   {
-    filename: "7.jpeg",
+    filename: "7.jpg",
     title: "How to avoid #Propagaza in 7 steps. Credit: Senia Waldberg",
     description: `1. There is no such thing as hundreds of dead in one bombing. That's why the story of the hospital in the first place sounds crazy. In order for hundreds of people to be killed in one bombing, a very large amount of very powerful bombs must be dropped and an entire block of buildings must be wiped out. This will not necessarily bring you to this situation either. In Russia, the record in the entire war was just over 100 dead in one Ukrainian bombing of a building. And even then, they did not exceed the 130 dead. So any news in which Hamas claims that several hundred people have died is fake news. Unless you see a hole in the ground the size of a football field, and even then it's probably a fake. ‎ ‎ ‎ ‎
 
@@ -80,14 +80,14 @@ export const posts = [
     tags: ["Propagaza"],
   },
   {
-    filename: "8.jpeg",
+    filename: "8.jpg",
     title:
       "Israel Defense Forces spokesperson: operational headquarters, weapons and technological equipment in the #MRI building ‼️at #ShifaHospital",
     description: ``,
     tags: ["ShifaTerrorHQ", "WarCrimes"],
   },
   {
-    filename: "9.jpeg",
+    filename: "9.jpg",
     title:
       "What does the Red Cross do for human rights?",
     description: `Yesterday?
@@ -107,13 +107,13 @@ export const posts = [
     tags: ["BringThemHomeNow" , "Hostages"],
   },
   {
-    filename: "10.jpeg",
+    filename: "10.jpg",
     title: "Am Israel Chai",
     description: ``,
     tags: ["BringThemHomeNow" , "Hostages"],
   },
   {
-    filename: "11.jpeg",
+    filename: "11.jpg",
     title: "No, Women, No cry.",
     description: `This is YOU! if you dont WAKE UP!
     Don’t sell who you are to a religious death cult, #HamasisISIS

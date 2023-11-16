@@ -6,13 +6,11 @@ import CommentIcon from "@mui/icons-material/Comment";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
 function Post({ title, description, fileName }) {
-  // console.log(url);
-
   return (
     <div className="post">
       <img className="post__image" src={`/photos/${fileName}`} alt="dsa" />
       <h4 className="post__text">
-        <strong>{title}</strong> {description}
+        <strong>{title}</strong> 
       </h4>
       <div style={{ display: "flex", margin: "15px" }}>
         <FavoriteBorderIcon />
