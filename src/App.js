@@ -6,8 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ContentList from "./components/ContentList";
 
 function App() {
+  const [selectedTag, setSelectedTag] = [""];
   function tagSelected(tag) {
-    console.log(`selected Tag:${tag}`);
+    setSelectedTag(tag);
   }
 
   return (
