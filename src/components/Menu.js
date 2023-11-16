@@ -12,7 +12,7 @@ function Menu() {
     <Navbar expand="lg" className="bg-body-tertiary" style={{padding: 0}}>
       <Container fluid style={{background: "#7FB3FF"}}>
         <Navbar.Brand>
-          <Image width={65} src={logo} alt="logo" style={{borderRadius:"8px"}} />
+          <Image width={65} src={logo} alt="logo" style={{borderRadius:"8px"}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
