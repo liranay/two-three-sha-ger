@@ -18,7 +18,7 @@ function Post({ title, fileName, tags }) {
       const blob = await rawContent.blob();
       const data = {
         files: [
-          new File([blob], "1.jpeg", {
+          new File([blob], fileName, {
             type: "image/png",
           }),
         ],
