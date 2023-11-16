@@ -218,6 +218,66 @@ export const posts = [
       "CeasefireNOW",
     ],
   },
+  //check
+  {
+    filename: "21.jpg",
+    title: "Isra-Parody Country = Joke",
+    tags: ["Pornographic", "Naiveness"],
+  },
+
+  {
+    filename: "22.jpg",
+    title: "Is it Illegal to Defend Myself?",
+    tags: ["FAKR", "FakeNews"],
+  },
+
+  {
+    filename: "23.jpg",
+    title: "Is the Koran Approves this Sh*t?",
+    tags: ["Nazi", "NeoNazi", "SHAME", "Koran", "Islam", "Religion"],
+  },
+
+  {
+    filename: "24.jpg",
+    title: "Pro-Palestine = Criminals",
+    tags: ["CRIME", "Vandalists"],
+  },
+
+  {
+    filename: "25.jpg",
+    title: "May Hell be with You",
+    tags: ["BloodShoes", "WarCrime"],
+  },
+
+  {
+    filename: "26.jpg",
+    title: "Where are you UN Woman?",
+    tags: ["WomanRights", "RIGHTS"],
+  },
+
+  {
+    filename: "27.jpg",
+    title: "Did you already forget the Holocaust?",
+    tags: ["Jews", "Holocaust"],
+  },
+
+  {
+    filename: "28.jpg",
+    title: "You Don’t Know Nothing",
+    tags: ["HAMAS", "Foolish"],
+  },
+
+  {
+    filename: "29.jpg",
+    title: "Would You Burn Your Child for a Dinner? Why Not?",
+    tags: ["BURN", "CHILD", "ALIVE"],
+  },
+
+  {
+    filename: "30.jpg",
+    title: "FREE PALESTINE JOKE",
+    tags: ["USELESS", "NoWhatToFree"],
+  },
 ];
 export const getTags = () => {
   const allTags = _.flatMap(posts.map((post) => post.tags));

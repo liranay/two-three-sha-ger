@@ -18,7 +18,7 @@ function Filter({tagSelected}) {
 
         <div style={{ display: "flex", overflow: "auto" }}>
           {tags.map((tag, index) => {
-            return <Tag tagSelected={tagSelected} value={tag} />;
+            return <Tag key={index} tagSelected={tagSelected} value={tag} />;
           })}
         </div>
       </div>

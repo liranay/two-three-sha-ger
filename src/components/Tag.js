@@ -13,7 +13,7 @@ export default function Tag({ value, tagSelected }) {
         border: "1px solid #CDE0FE",
         background: "#CDE0FE",
       }}
-      class="badge"
+      className="badge"
       onClick={() => {
         tagSelected(value);
       }}
