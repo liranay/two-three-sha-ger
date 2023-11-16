@@ -4,6 +4,8 @@ import * as model from "../model/model";
 
 function ContentList() {
   const [posts, setPosts] = useState(model.posts);
+  
+
   return (
     <div className="timeline">
       {posts.map((post) => (
