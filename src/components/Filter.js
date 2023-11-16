@@ -14,7 +14,7 @@ function Filter({tagSelected}) {
           justifyContent: "center",
         }}
       >
-        <FilterAltIcon style={{ fontSize: "40px" }} />
+        {/* <FilterAltIcon style={{ fontSize: "40px" }} /> */}
 
         <div style={{ display: "flex", overflow: "auto" }}>
           {tags.map((tag, index) => {

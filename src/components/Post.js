@@ -43,7 +43,14 @@ function Post({ title, fileName, tags }) {
   };
 
   return (
-    <div className="post">
+    <div
+      className="post"
+      style={{
+        borderRadius: "8px",
+        background: "var(--background-panel-day, #FFF)",
+        boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+      }}
+    >
       <img className="post__image" src={`/photos/${fileName}`} alt="dsa" />
       <h4 className="post__text">
         <strong>{title}</strong>
