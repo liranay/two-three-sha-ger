@@ -4,12 +4,11 @@ import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import * as model from "../model/model";
 import Tag from "./Tag";
 
-function Tags({tagSelected}) {
+function Tags({tagSelected, sortSelected}) {
   const [value, setValue] = useState("Editor's choice");
 
   const handleSelect = (e) => {
-    console.log(e);
-    setValue(e);
+    sortSelected(e)
   };
 
   const [tags, setTags] = useState(model.tags);
