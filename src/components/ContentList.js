@@ -2,8 +2,7 @@ import { useState } from "react";
 import Post from "./Post";
 import * as model from "../model/model";
 
-function ContentList() {
-  const [posts, setPosts] = useState(model.posts);
+function ContentList({posts}) {
   
   return (
     <div className="timeline">

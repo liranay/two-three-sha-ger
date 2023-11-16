@@ -12,11 +12,14 @@ import * as model from "./model/model";
 function App() {
   const [selectedTag, setSelectedTag] = useState();
   const [selectedSort, setSelectedSort] = useState();
-  const [foundPosts, setFoundPosts] = useState(model.posts.length);
+  const [posts, setPosts] = useState(model.posts);
 
   function tagSelected(tag) {
     console.log(`selected tag ${tag}`);
     setSelectedTag(tag);
+    setPosts(model.posts.filter((post)=>{
+      return post.tags.includes(tag);
+    }));
   }
 
   function sortSelected(sort) {
@@ -41,15 +44,16 @@ function App() {
           style={{
             marginLeft: "20px",
             color: "#005BE7",
+            fontWeight: "bold"
           }}
         >
-          {foundPosts ? `${foundPosts} posts found` : "no posts found"}
+          {posts.length ? `${posts.length} posts found` : "no posts found"}
         </span>
         <div style={{ marginRight: "20px" }}>
           <Sorter sortSelected={sortSelected} />
         </div>
       </div>
-      <ContentList />
+      <ContentList  posts={posts}/>
 
       <FiltersMenu />
     </div>
