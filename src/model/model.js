@@ -116,23 +116,18 @@ export const posts = [
   There are 240 Israeli Civilians and other nationalities that are hostages in Gaza, 30 of them are kids. #bringthemhomenow #bringthemhome
  
   Credit: Yana Yanuchka`,
-    tags: [
-      "TheWestIsNext",
-      "Hostages",
-      "BringThemHomeNow",
-      "HamasisISIS",
-      "WarCrimes",
-    ],
+    tags: ["TheWestIsNext", "Hostages", "BringThemHomeNow", "WarCrimes"],
   },
   {
     filename: "12.jpg",
-    title: "CANCEL anyone who lift their head and supports terror.",
+    title:
+      "30 KIDS are hostages by HamasisISIS in Gaza, Can you find our little girl?.",
     description: "",
     tags: [
-      "TheWestIsNext",
-      "TerrorSplaining",
+      "Hostages",
+      "BringThemHomeNow",
       "WarCrimes",
-      "Propagaza",
+      "HamasisISIS",
       "CeasefireNOW",
     ],
   },
@@ -171,7 +166,7 @@ export const posts = [
   },
   {
     filename: "16.jpg",
-    title: "Save the world from Hamas",
+    title: "Save the world from HamasisISIS",
     tags: [
       "Shieldren",
       "HamasisISIS",
@@ -198,14 +193,8 @@ export const posts = [
   },
   {
     filename: "19.jpg",
-    title: "Do you know what you are fighting for??",
-    tags: [
-      "Shieldren",
-      "HamasisISIS",
-      "WarCrimes",
-      "HumanRights",
-      "CeasefireNOW",
-    ],
+    title: "Choose your club",
+    tags: ["HamasisISIS", "WarCrimes", "HumanRights"],
   },
   {
     filename: "20.jpg",
@@ -218,13 +207,6 @@ export const posts = [
       "CeasefireNOW",
     ],
   },
-  //check
-  {
-    filename: "21.png",
-    title: "Isra-Parody Country = Joke",
-    tags: ["Pornographic", "Naiveness"],
-  },
-
   {
     filename: "22.png",
     title: "Is it Illegal to Defend Myself?",
@@ -233,13 +215,13 @@ export const posts = [
 
   {
     filename: "23.png",
-    title: "Is the Koran Approves this Sh*t?",
+    title: "Does the Quran allow this atrocity?",
     tags: ["Nazi", "NeoNazi", "SHAME", "Koran", "Islam", "Religion"],
   },
 
   {
     filename: "24.png",
-    title: "Pro-Palestine = Criminals",
+    title: "FreePalestine = FreeVandalists",
     tags: ["CRIME", "Vandalists"],
   },
 
@@ -257,25 +239,25 @@ export const posts = [
 
   {
     filename: "27.png",
-    title: "Did you already forget the Holocaust?",
+    title: "#MeJew",
     tags: ["Jews", "Holocaust"],
   },
 
   {
     filename: "28.png",
-    title: "You Don’t Know Nothing",
+    title: "You Know Nothing",
     tags: ["HAMAS", "Foolish"],
   },
 
   {
     filename: "29.png",
-    title: "Would You Burn Your Child for a Dinner? Why Not?",
+    title: "Your Child for a Dinner? Why Not?",
     tags: ["BURN", "CHILD", "ALIVE"],
   },
 
   {
     filename: "30.png",
-    title: "FREE PALESTINE JOKE",
+    title: "FREE PALESTINE?",
     tags: ["USELESS", "NoWhatToFree"],
   },
 ];
