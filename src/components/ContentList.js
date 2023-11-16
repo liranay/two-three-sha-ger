@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Image } from "react-bootstrap";
 import Post from "./Post";
 import * as model from "../model/model";
 

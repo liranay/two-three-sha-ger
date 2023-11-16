@@ -2,25 +2,7 @@ import { Badge, Dropdown, Button } from "react-bootstrap";
 import { useState } from "react";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import * as model from "../model/model";
-
-function Tag({ value }) {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        background: "blue",
-        margin: "8px",
-        height: "40px",
-        textAlign: "center",
-      }}
-      class="badge rounded-pill bg-primary"
-    >
-      {value}
-    </div>
-  );
-}
+import Tag from "./Tag";
 
 function Tags() {
   const [value, setValue] = useState("Editor's choice");

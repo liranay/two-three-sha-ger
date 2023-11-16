@@ -9,9 +9,9 @@ import { Image } from 'react-bootstrap';
 
 function Menu() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
-        <Navbar.Brand>
+    <Navbar expand="lg" className="bg-body-tertiary" style={{padding: 0}}>
+      <Container fluid style={{background: "#7FB3FF"}}>
+        <Navbar.Brand  style={{borderRadius: "8px"}}>
           <Image width={65} src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

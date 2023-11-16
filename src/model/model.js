@@ -48,22 +48,4 @@ export const posts = [
         language: LANGUAGE.ENGLISH,
         rating: 4,
       },
-    //   {
-    //     filename: "4.jpg",
-    //     title: "This is the first post",
-    //     description: "This is the first post",
-    //     tags: ["1", "2"],
-    //     date: Date.now(),
-    //     language: LANGUAGE.ENGLISH,
-    //     rating: 4,
-    //   },
-    //   {
-    //     filename: "5.jpg",
-    //     title: "This is the first post",
-    //     description: "This is the first post",
-    //     tags: ["1", "2"],
-    //     date: Date.now(),
-    //     language: LANGUAGE.ENGLISH,
-    //     rating: 4,
-    //   },
 ];
