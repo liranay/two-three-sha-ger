@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Menu from './components/Menu';
+import Tags from './components/Tags';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
         <Menu/>
+        <Tags/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
