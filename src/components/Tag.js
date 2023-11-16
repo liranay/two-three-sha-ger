@@ -18,7 +18,7 @@ export default function Tag({ value, tagSelected }) {
         tagSelected(value);
       }}
     >
-      {value}
+      #{value}
     </div>
   );
 }
