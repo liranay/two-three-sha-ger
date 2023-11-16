@@ -2,41 +2,73 @@ import { Badge, Dropdown, Button } from "react-bootstrap";
 import { useState } from "react";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
-function Tag() {
+function Tag({ value }) {
   return (
-    <span
-      style={{ margin: "8px", height: "40px", width: "100px" }}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        background: "blue",
+        margin: "8px",
+        height: "40px",
+        minWidth: "80px",
+        textAlign: "center",
+      }}
       class="badge rounded-pill bg-primary"
     >
-      Primary
-    </span>
+      {value}
+    </div>
   );
 }
 
 function Tags() {
-  const [tags, setTags] = useState([1, 2, 3]);
+  const [value, setValue] = useState("Editor's choice");
+  const handleSelect = (e) => {
+    console.log(e);
+    setValue(e);
+  };
+
+  const [tags, setTags] = useState([
+    "English",
+    "Math",
+    "Science",
+    "History",
+    "English",
+    "Math",
+    "Science",
+    "History",
+  ]);
 
   return (
     <div>
-      <div style={{ display: "flex" }}>
-        <FilterAltIcon />
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <FilterAltIcon style={{ fontSize: "40px" }} />
 
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ display: "flex", overflow: "auto" }}>
           {tags.map((tag, index) => {
-            return <Tag />;
+            return <Tag value={tag} />;
           })}
         </div>
       </div>
-      <div>
-        <Dropdown>
+      <div style={{ marginTop: "20px" }}>
+        <Dropdown onSelect={handleSelect}>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Dropdown Button
+            {value}
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            <Dropdown.Item eventKey="Editor's choice">
+              Editor's choice
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="Latest">Latest</Dropdown.Item>
+            <Dropdown.Item eventKey="Best rating">Best rating</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>
