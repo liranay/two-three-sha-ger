@@ -9,7 +9,7 @@ export default function Sorter({ sortSelected }) {
   const [value, setValue] = useState("Editor's choice");
 
   return (
-    <div style={{ marginRight: "20px" }}>
+    <div>
       <Dropdown onSelect={handleSelect}>
         <Dropdown.Toggle variant="success" id="dropdown-basic">
           {value}
