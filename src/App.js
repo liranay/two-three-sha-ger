@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import _ from "lodash";
 
 import Menu from "./components/Menu";
 import FiltersMenu from "./components/FiltersMenu";
@@ -53,7 +54,7 @@ function App() {
           <Sorter sortSelected={sortSelected} />
         </div>
       </div>
-      <ContentList  posts={posts}/>
+      <ContentList posts={_.shuffle(posts)}/>
 
       {/* <FiltersMenu /> */}
     </div>
