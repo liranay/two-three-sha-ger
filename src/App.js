@@ -55,7 +55,7 @@ function App() {
       </div>
       <ContentList  posts={posts}/>
 
-      <FiltersMenu />
+      {/* <FiltersMenu /> */}
     </div>
   );
 }
