@@ -30,7 +30,6 @@ function Post({ title, fileName, tags }) {
         try {
           await navigator.share(data);
         } catch (err) {
-          alert(err);
           if (err.name !== "AbortError") {
             console.error(err.name, err.message);
           }
@@ -40,22 +39,6 @@ function Post({ title, fileName, tags }) {
       } else {
         alert("can't share");
       }
-
-      // await navigator
-      //   .share({
-      //     files: [file],
-      //     title: `test`,
-      //     text: `Check out test`,
-      //     // url: `https://fbb6-62-219-65-138.ngrok-free.app/public/${fileName}`,
-      //   })
-      //   .then(() => {
-      //     alert("Something went wrong sharing the blog");
-      //     console.log("Successfully shared");
-      //   })
-      //   .catch((error) => {
-      //     alert(`Something went wrong sharing the blog ${error}`);
-      //     console.error("Something went wrong sharing the blog", error);
-      //   });
     }
   };
 
