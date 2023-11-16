@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+
 import Menu from "./components/Menu";
 import FiltersMenu from "./components/FiltersMenu";
-import Tags from "./components/FilterAndSorter";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Filter from "./components/Filter";
+import Sorter from "./components/Sorter";
 import ContentList from "./components/ContentList";
 import { useState } from "react";
 
@@ -25,9 +26,14 @@ function App() {
     <div className="App">
       <Menu />
       <div style={{ marginTop: "10px" }}>
-        <Tags tagSelected={tagSelected} sortSelected={sortSelected} />
+        <Filter tagSelected={tagSelected} />
+      </div>
+      <div>
+        <Sorter sortSelected={sortSelected} />
+        <span style={{ marginLeft: "20px" }}>33 posts found</span>
       </div>
       <ContentList />
+
       <FiltersMenu />
     </div>
   );
