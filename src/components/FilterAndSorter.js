@@ -1,6 +1,7 @@
 import { Badge, Dropdown, Button } from "react-bootstrap";
 import { useState } from "react";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
+import * as model from "../model/model";
 
 function Tag({ value }) {
   return (
@@ -12,7 +13,6 @@ function Tag({ value }) {
         background: "blue",
         margin: "8px",
         height: "40px",
-        minWidth: "80px",
         textAlign: "center",
       }}
       class="badge rounded-pill bg-primary"
@@ -29,16 +29,7 @@ function Tags() {
     setValue(e);
   };
 
-  const [tags, setTags] = useState([
-    "English",
-    "Math",
-    "Science",
-    "History",
-    "English",
-    "Math",
-    "Science",
-    "History",
-  ]);
+  const [tags, setTags] = useState(model.tags);
 
   return (
     <div>
