@@ -74,7 +74,7 @@ export const posts = [
   {
     filename: "8.jpg",
     title:
-      "Israel Defense Forces spokesperson: operational headquarters, weapons and technological equipment in the #MRI building ‼️at #ShifaHospital",
+      "Israel Defense Forces spokesperson: operational headquarters, weapons and technological equipment in the #MRI building at #ShifaHospital",
     tags: [
       "ShifaTerrorHQ",
       "WarCrimes",
@@ -251,7 +251,7 @@ export const posts = [
 
   {
     filename: "29.png",
-    title: "Your Child for a Dinner? Why Not?",
+    title: "Your Child for Dinner? Why Not?",
     tags: ["BURN", "CHILD", "ALIVE"],
   },
 
@@ -262,6 +262,6 @@ export const posts = [
   },
 ];
 export const getTags = () => {
-  const allTags = _.flatMap(posts.map((post) => post.tags));
+  const allTags = _.uniq(_.flatMap(posts.map((post) => post.tags)));
   return allTags;
 };
