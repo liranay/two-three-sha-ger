@@ -253,7 +253,7 @@ export const posts = [
   {
     filename: "30.png",
     title: "FREE PALESTINE?",
-    tags: ["USELESS", "NoWhatToFree"], "HAMAS", "Foolish", ""Woke"", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights",
+    tags: ["USELESS", "NoWhatToFree"], "HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights",
   },
 ];
 export const getTags = () => {
