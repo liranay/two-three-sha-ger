@@ -20,7 +20,7 @@ export const posts = [
     ],
   },
   {
-    filename: "2.jpeg",
+    filename: "2.jpg",
     title: "Same Jihadist terror, different years.",
     tags: [
       "tError",
@@ -31,7 +31,7 @@ export const posts = [
     ],
   },
   {
-    filename: "3.jpeg",
+    filename: "3.jpg",
     title: "True shared values and who aims to disrupt them..",
     description:
       "People tear down the American flag, In pro-Israeli protests they raise the American flag high.",
