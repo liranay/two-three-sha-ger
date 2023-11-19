@@ -33,7 +33,7 @@ export const posts = [
     ],
   },
   {
-    filename: "3.jpeg",
+    filename: "3.jpg",
     title: "True shared values and who aims to disrupt them..",
     description:
       "People tear down the American flag, In pro-Israeli protests they raise the American flag high.",
