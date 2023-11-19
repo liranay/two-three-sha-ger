@@ -20,7 +20,7 @@ export const posts = [
     ],
   },
   {
-    filename: "2.jpeg",
+    filename: "2.jpg",
     title: "Same Jihadist terror, different years.",
     tags: [
       "tError",
@@ -28,6 +28,8 @@ export const posts = [
       "TheWestIsNext",
       "CeasefireNOW",
       "Propagaza",
+       "EllaKenan",
+      
     ],
   },
   {
@@ -51,7 +53,7 @@ export const posts = [
   {
     filename: "5.jpg",
     title:
-      "After all hostages—men, women, and children—are immediately released and safely return to Israel.",
+      "*After all hostages—men, women, and children—are immediately released and safely return to Israel.",
     description: "",
     tags: [
       "Hostages",
@@ -59,6 +61,7 @@ export const posts = [
       "CeasefireNOW",
       "StandWithIsrael",
       "shieldren",
+      "EllaKenan",
     ],
   },
   {
@@ -69,18 +72,19 @@ export const posts = [
   {
     filename: "7.jpg",
     title: "How to avoid #Propagaza? Credit: @Kerenaz",
-    tags: ["Propagaza", "Woke", "MediaBias", "TheWestIsNext", "CeasefireNOW"],
+    tags: ["Propagaza", "Woke", "MediaBias", "TheWestIsNext", "CeasefireNOW", "KerenAzaria"],
   },
   {
     filename: "8.jpg",
     title:
-      "Israel Defense Forces spokesperson: operational headquarters, weapons and technological equipment in the #MRI building at #ShifaHospital",
+      "Operational headquarters, weapons and technological equipment in the #MRI building at #ShifaHospital",
     tags: [
       "ShifaTerrorHQ",
       "WarCrimes",
       "HamasisISIS",
       "HumanRights",
       "TheWestIsNext",
+      "IDF spokesperson"
     ],
   },
   {
@@ -113,10 +117,8 @@ export const posts = [
     description: `This is YOU! if you don't WAKE UP!
   Don’t sell who you are to a religious death cult, #HamasisISIS
  
-  There are 240 Israeli Civilians and other nationalities that are hostages in Gaza, 30 of them are kids. #bringthemhomenow #bringthemhome
- 
-  Credit: Yana Yanuchka`,
-    tags: ["TheWestIsNext", "Hostages", "BringThemHomeNow", "WarCrimes"],
+  There are 240 Israeli Civilians and other nationalities that are hostages in Gaza, 30 of them are kids. #bringthemhomenow #bringthemhome`,
+    tags: ["TheWestIsNext", "Hostages", "BringThemHomeNow", "WarCrimes", " Yana Yanuchka"],
   },
   {
     filename: "12.jpg",
@@ -194,29 +196,22 @@ export const posts = [
   {
     filename: "19.jpg",
     title: "Choose your club",
-    tags: ["HamasisISIS", "WarCrimes", "HumanRights"],
+    tags: ["HamasisISIS", "WarCrimes", "HumanRights", "EllaKenan"],
   },
-  {
-    filename: "20.jpg",
-    title: "Food for thought.",
-    tags: [
-      "Shieldren",
-      "HamasisISIS",
-      "WarCrimes",
-      "HumanRights",
-      "CeasefireNOW",
-    ],
-  },
+ 
   {
     filename: "22.png",
     title: "Is it Illegal to Defend Myself?",
-    tags: ["FAKR", "FakeNews"],
+    tags: [ "HamasisISIS",
+      "WarCrimes",
+      "HumanRights",
+      "CeasefireNOW"],
   },
 
   {
     filename: "23.png",
     title: "Does the Quran allow this atrocity?",
-    tags: ["Nazi", "NeoNazi", "SHAME", "Koran", "Islam", "Religion"],
+    tags: ["Nazi", "NeoNazi", "SHAME", "Kouran", "Islam", "Religion"],
   },
 
   {
@@ -228,37 +223,37 @@ export const posts = [
   {
     filename: "25.png",
     title: "May Hell be with You",
-    tags: ["BloodShoes", "WarCrime"],
+    tags: ["BloodShoes", "WarCrime", "Hostages"],
   },
 
   {
     filename: "26.jpeg",
     title: "Where are you UN Woman?",
-    tags: ["WomanRights", "RIGHTS"],
+    tags: ["WomanRights", "RIGHTS", "Hostages"],
   },
 
   {
     filename: "27.png",
     title: "#MeJew",
-    tags: ["Jews", "Holocaust"],
+    tags: ["Jews", "Holocaust", "GazaLight", "MeJewMeToo"],
   },
 
   {
     filename: "28.png",
     title: "You Know Nothing",
-    tags: ["HAMAS", "Foolish"],
+    tags: ["HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
   },
 
   {
     filename: "29.png",
     title: "Your Child for Dinner? Why Not?",
-    tags: ["BURN", "CHILD", "ALIVE"],
+    tags: ["WarCrimes", "CHILD", "ALIVE", "Jews", "Holocaust"],
   },
 
   {
     filename: "30.png",
     title: "FREE PALESTINE?",
-    tags: ["USELESS", "NoWhatToFree"],
+    tags: ["USELESS", "NoWhatToFree"], "HAMAS", "Foolish", ""Woke"", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights",
   },
 ];
 export const getTags = () => {
