@@ -255,6 +255,7 @@ export const posts = [
     title: "FREE PALESTINE?",
     tags: ["UsefullIdiots", "HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
   },
+  
 ];
 export const getTags = () => {
   const allTags = _.uniq(_.flatMap(posts.map((post) => post.tags)));
