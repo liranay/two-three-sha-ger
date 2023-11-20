@@ -320,7 +320,7 @@ export const posts = [
 {
     filename: "40.jpg",
     title: "Oops..",
-    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael", "BombHospital",
+    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael"]
   },
 
 
