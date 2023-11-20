@@ -292,7 +292,7 @@ export const posts = [
 {
     filename: "36.jpg",
     title: "BRING THEM HOME, NOW !!!",
-    tags: ["bringthemhome", "istandwithisrael"],
+    tags: ["bringthemhome", "standwithisrael"],
   },
 
 
