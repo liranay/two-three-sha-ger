@@ -256,82 +256,82 @@ export const posts = [
     tags: ["UsefullIdiots", "HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
   },
   {
-    filename: "31.jpg",
+    filename: "31.png",
     title: "Is Hamas Human?",
     tags: ["HAMASisISIS", "FreeGazaFromHamas"],
   },
 
 
 {
-    filename: "32.jpg",
+    filename: "32.png",
     title: "BRING THEM HOME !",
     tags: ["RedCross", "StandWithUs"],
   },
 
 
 {
-    filename: "33.jpg",
+    filename: "33.png",
     title: "Shame on You Harvard",
     tags: ["HarvardUniversity", "istandwithisrael","StopAntisemitism"],
   },
 
 
 {
-    filename: "34.jpg",
+    filename: "34.png",
     title: "Nevr Again?",
     tags: ["HAMASisISIS", "bringthemback", "standwithisrael"],
   },
 
 {
-    filename: "35.jpg",
+    filename: "35.png",
     title: "They’re All the SAME",
     tags: ["HAMASisISIS", "Nazism"],
   },
 
 
 {
-    filename: "36.jpg",
+    filename: "36.png",
     title: "BRING THEM HOME, NOW !!!",
     tags: ["bringthemhome", "standwithisrael"],
   },
 
 
 {
-    filename: "37.jpg",
+    filename: "37.png",
     title: "Why is There a Time Limit Only When it Comes to Israel?",
     tags: ["standwithisrael", "bringthemhome"],
   },
 
 
 {
-    filename: "38.jpg",
+    filename: "38.png",
     title: "I’M OK ?",
     tags: ["HAMASisISIS", "innocentwomen", "innocentchildren"],
   },
 
 
 {
-    filename: "39.jpg",
+    filename: "39.png",
     title: "Welcom to the Puppets Show",
     tags: ["Hypocrisy", "HAMASisISIS", "FakeNews"],
   },
 
 
 {
-    filename: "40.jpg",
+    filename: "40.png",
     title: "Oops..",
     tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael"]
   },
 
 
 {
-    filename: "41.jpg",
+    filename: "41.png",
     title: "Who is the Giving Tree?",
     tags: ["HumanitarianCrisisLie", "PoisionedHamas"],
   },
 
 {
-    filename: "42.jpg",
+    filename: "42.png",
     title: "World’s Twisted Point of View",
     tags: ["HamasisISIS"],
   },
