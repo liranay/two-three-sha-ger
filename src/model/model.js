@@ -306,21 +306,21 @@ export const posts = [
 {
     filename: "38.jpg",
     title: "I’M OK ?",
-    tags: ["HAMASisISIS", "innocentwomen", "innocentchildren”],
+    tags: ["HAMASisISIS", "innocentwomen", "innocentchildren"],
   },
 
 
 {
     filename: "39.jpg",
     title: "Welcom to the Puppets Show",
-    tags: ["Hypocrisy", "HAMASisISIS", "FakeNews”],
+    tags: ["Hypocrisy", "HAMASisISIS", "FakeNews"],
   },
 
 
 {
     filename: "40.jpg",
     title: "Oops..",
-    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael”, “BombHospital”],
+    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael", "BombHospital",
   },
 
 
