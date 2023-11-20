@@ -263,7 +263,7 @@ export const posts = [
 
 
 {
-    filename: "32.png",
+    filename: "32.jpeg",
     title: "BRING THEM HOME !",
     tags: ["RedCross", "StandWithUs"],
   },
