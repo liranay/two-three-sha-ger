@@ -258,76 +258,76 @@ export const posts = [
   {
     filename: "31.jpg",
     title: "Is Hamas Human?",
-    tags: [“HAMASisISIS", "FreeGazaFromHamas"],
+    tags: ["HAMASisISIS", "FreeGazaFromHamas"],
   },
 
 
 {
     filename: "32.jpg",
     title: "BRING THEM HOME !",
-    tags: [“RedCross", "StandWithUs"],
+    tags: ["RedCross", "StandWithUs"],
   },
 
 
 {
     filename: "33.jpg",
     title: "Shame on You Harvard",
-    tags: [“HarvardUniversity", "istandwithisrael", “StopAntisemitism”],
+    tags: ["HarvardUniversity", "istandwithisrael","StopAntisemitism"],
   },
 
 
 {
     filename: "34.jpg",
     title: "Nevr Again?",
-    tags: [“HAMASisISIS", "bringthemback", “standwithisrael”],
+    tags: ["HAMASisISIS", "bringthemback", "standwithisrael”],
   },
 
 {
     filename: "35.jpg",
     title: "They’re All the SAME",
-    tags: [“HAMASisISIS", "Nazism"],
+    tags: ["HAMASisISIS", "Nazism"],
   },
 
 
 {
     filename: "36.jpg",
     title: "BRING THEM HOME, NOW !!!",
-    tags: [“bringthemhome", "istandwithisrael"],
+    tags: ["bringthemhome", "istandwithisrael"],
   },
 
 
 {
     filename: "37.jpg",
     title: "Why is There a Time Limit Only When it Comes to Israel?",
-    tags: [“istandwithisrael", "bringthemhome"],
+    tags: ["standwithisrael", "bringthemhome"],
   },
 
 
 {
     filename: "38.jpg",
     title: "I’M OK ?",
-    tags: [“HAMASisISIS", "innocentwomen", “innocentchildren”, “CrimeAgainstHumanity],
+    tags: ["HAMASisISIS", "innocentwomen", "innocentchildren”],
   },
 
 
 {
     filename: "39.jpg",
     title: "Welcom to the Puppets Show",
-    tags: [“Hypocrisy", "HAMASisISIS", “FakeNews”],
+    tags: ["Hypocrisy", "HAMASisISIS", "FakeNews”],
   },
 
 
 {
     filename: "40.jpg",
     title: "Oops..",
-    tags: [“HAMASisISIS", "killingitsowncivillians", “BlameIsrael”, “BombHospital”],
+    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael”, “BombHospital”],
   },
 
 
 {
     filename: "41.jpg",
     title: "Who is the Giving Tree?",
-    tags: [“HumanitarianCrisisLie", "PoisionedHamas"],
+    tags: ["HumanitarianCrisisLie", "PoisionedHamas"],
   },
 
 {
