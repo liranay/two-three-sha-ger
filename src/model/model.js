@@ -333,7 +333,7 @@ export const posts = [
 {
     filename: "42.jpg",
     title: "World’s Twisted Point of View",
-    tags: [“HamasisISIS”],
+    tags: ["HamasisISIS"],
   },
 ];
 export const getTags = () => {
