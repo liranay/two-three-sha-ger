@@ -279,7 +279,7 @@ export const posts = [
 {
     filename: "34.jpg",
     title: "Nevr Again?",
-    tags: ["HAMASisISIS", "bringthemback", "standwithisrael”],
+    tags: ["HAMASisISIS", "bringthemback", "standwithisrael"],
   },
 
 {
