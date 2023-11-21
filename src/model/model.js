@@ -229,7 +229,7 @@ export const posts = [
   {
     filename: "26.jpeg",
     title: "Where are you UN Woman?",
-    tags: ["WomanRights", "RIGHTS", "Hostages"],
+    tags: ["WomanRights", "Hostages"],
   },
 
   {
@@ -241,7 +241,7 @@ export const posts = [
   {
     filename: "28.png",
     title: "You Know Nothing",
-    tags: ["HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
+    tags: ["HAMAS", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
   },
 
   {
@@ -334,6 +334,84 @@ export const posts = [
     filename: "42.png",
     title: "World’s Twisted Point of View",
     tags: ["HamasisISIS"],
+  },
+  
+{
+    filename: "100.jpg",
+    title: "UN secretary general, UNICEF and United Nations do not care about Israeli children. #WorldChildrensDay #standwithisrael Credit:@ellakenan",
+    tags: ["WorldChildrensDay", "standwithisrael","ellakenan" ],
+  },
+
+{
+    filename: "101.jpg",
+    title: "This children's day we call for the return of our children and all hostages. #WorldChildrensDay #standwithisrael #BringThemBack #BringThemBackHome #Hamasisisis Credit:@ellakenan",
+    tags: ["BringThemBack", "BringThemBackHome", "Hamasisisis" ,"WorldChildrensDay", "standwithisrael","ellakenan" ],
+  },
+  
+{
+    filename: "102.jpg",
+    title: "Please take an immediate stance against Jihadi terrorist support on campus. #standwithisrael #Hamasisisis Credit:@ellakenan",
+    tags: ["Hamasisisis", "standwithisrael", "ellakenan" ],
+  },
+{
+    filename: "103.jpg",
+    title: "Gen Z in the US is really the biggest disappointment of all time. #standwithisrael #TheWestIsNext #Educateyourself Credit:@ellakenan",
+    tags: ["TheWestIsNext","Educateyourself","ellakenan" ],
+  },  
+{
+    filename: "104.jpg",
+    title: "The New American Idol? #TheWestIsNext #Educateyourself #standwithisrael Credit:@ellakenan",
+    tags: ["TheWestIsNext","Educateyourself","ellakenan" ],
+  }, 
+{
+    filename: "105.jpg",
+    title: "Did you ever question yourself why was it so easy to make you a useful idiot in the service of ISIS? #standwithisrael #HamasisISIS #Educateyourself Credit:@ellakenan",
+    tags: ["TheWestIsNext","Educateyourself", "UsefullIdiots" ,"ellakenan" ],
+  }, 
+{
+    filename: "106.jpg",
+    title: "Imagine that Hamas-ISIS has infiltrated your village, murdered you friends, family and kidnapped you days before giving birth. #standwithisrael #HamasisISIS #WomanRights Credit:@ellakenan",
+    tags: ["InnocentChildren", "bringthemhome", "WomanRights" ,"ellakenan" ],
+  }, 
+{
+    filename: "107.jpg",
+    title: "An Israeli woman, in the last weeks of her final trimester, was kidnapped to Gaza on October 7th and had to give birth while in captivity. #standwithisrael #HamasisISIS #WomanRights Credit:@ellakenan",
+    tags: ["InnocentChildren", "bringthemhome", "WomanRights" ,"ellakenan" ],
+  }, 
+{
+    filename: "108.jpg",
+    title: "Roger Waters, WE know what happened. Hamas terrorists broke into our cities, butchered our citizens, raped our women, and took our children hostage. #standwithisrael  #HamasisISIS #Educateyourself  Credit:@ellakenan",
+    tags: ["TheWestIsNext","Educateyourself", "UsefullIdiots" ,"ellakenan" ],
+  }, 
+{
+    filename: "109.jpg",
+    title: "Current state of "higher education" in the US #standwithisrael #hamasisisis #educateyourself #education #learning #university Credit:@ellakenan",
+    tags: ["University","Educateyourself", "UsefullIdiots" ,"ellakenan" ],
+  },
+{
+    filename: "110.jpg",
+    title: "This is how you look. #standwithisrael #hamasisisis #educateyourself #education #learning #university Credit:@ellakenan",
+    tags: ["University","Educateyourself", "UsefullIdiots" ,"ellakenan" ],
+  },
+ {
+    filename: "111.jpg",
+    title: "Imagine failing to understand the undeniable facts - It's Israel now, your home is next.Angelina I'm talking to you. @Angelina Jolie #thewestisnext #standwithisrael #freegazafromhamas Credit:@ellakenan",
+    tags: ["standwithisrael","Educateyourself", "freegazafromhamas" ,"ellakenan" ],
+  },
+ {
+    filename: "112.jpg",
+    title: "Hamas is the sole cause of suffering both in Israel and in Gaza. #freepalestinefromhamas #humanrights #humanity #standwithisrael #freegazafromhamas Credit:@ellakenan",
+    tags: ["standwithisrael","Educateyourself", "humanrights", "freegazafromhamas" ,"ellakenan" ],
+  },
+{
+    filename: "113.jpg",
+    title: "Amongst the 241 people there are more than 30 babies and children, some without their parents! #bringthemhomenow #humanrights #humanity #standwithisrael #freegazafromhamas Credit:@ellakenan",
+    tags: ["InnocentChildren", "bringthemhome" "humanrights","ellakenan" ],
+  },
+  {
+    filename: "114.jpg",
+    title: "There cannot be a humanitarian ceasefire withou their release. 9 months-year-old babies! 85-year-olds! Please share.#HamasisISIS #TheWestlsNext #BringThemBack #BringThemHomeNow #standwithisrael Credit:@ellakenan",
+    tags: ["InnocentChildren", "bringthemhome" "humanrights","HamasisISIS","TheWestlsNext", "BringThemBack", "BringThemHomeNow", "standwithisrael", "ellakenan" ],
   },
 ];
 export const getTags = () => {
