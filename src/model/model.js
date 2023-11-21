@@ -385,7 +385,7 @@ export const posts = [
   }, 
 {
     filename: "109.jpg",
-    title: "Current state of "higher education" in the US #standwithisrael #hamasisisis #educateyourself #education #learning #university Credit:@ellakenan",
+    title: "Current state of higher education in the US. #standwithisrael #hamasisisis #educateyourself #education #learning #university Credit:@ellakenan",
     tags: ["University","Educateyourself", "UsefullIdiots" ,"ellakenan" ],
   },
 {
