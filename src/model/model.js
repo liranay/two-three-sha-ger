@@ -217,7 +217,7 @@ export const posts = [
   {
     filename: "24.png",
     title: "FreePalestine = FreeVandalists",
-    tags: [ "Vandalists" "HamasisISIS", "WarCrimes",],
+    tags: [ "Vandalists", "HamasisISIS", "WarCrimes",],
   },
 
   {
