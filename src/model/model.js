@@ -28,7 +28,7 @@ export const posts = [
       "TheWestIsNext",
       "CeasefireNOW",
       "Propagaza",
-       "EllaKenan",
+       "ellakenan",
       
     ],
   },
@@ -61,7 +61,7 @@ export const posts = [
       "CeasefireNOW",
       "StandWithIsrael",
       "shieldren",
-      "EllaKenan",
+      "ellakenan",
     ],
   },
   {
@@ -211,19 +211,19 @@ export const posts = [
   {
     filename: "23.png",
     title: "Does the Quran allow this atrocity?",
-    tags: ["Nazi", "NeoNazi", "SHAME", "Kouran", "Islam", "Religion"],
+    tags: ["Islam", "Religion", "HamasisISIS", "WarCrimes",],
   },
 
   {
     filename: "24.png",
     title: "FreePalestine = FreeVandalists",
-    tags: ["CRIME", "Vandalists"],
+    tags: [ "Vandalists" "HamasisISIS", "WarCrimes",],
   },
 
   {
     filename: "25.png",
     title: "May Hell be with You",
-    tags: ["BloodShoes", "WarCrime", "Hostages"],
+    tags: [ "WarCrimes", "Hostages"],
   },
 
   {
@@ -247,18 +247,18 @@ export const posts = [
   {
     filename: "29.png",
     title: "Your Child for Dinner? Why Not?",
-    tags: ["WarCrimes", "CHILD", "ALIVE", "Jews", "Holocaust"],
+    tags: ["WarCrimes", "Jews", "Holocaust"],
   },
 
   {
     filename: "30.png",
     title: "FREE PALESTINE?",
-    tags: ["UsefullIdiots", "HAMAS", "Foolish", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
+    tags: ["UsefullIdiots", "Woke", "Propagaza", "HamasisISIS", "TheWestIsNext", "HumanRights"],
   },
   {
     filename: "31.png",
     title: "Is Hamas Human?",
-    tags: ["HAMASisISIS", "FreeGazaFromHamas"],
+    tags: ["HamasisISIS", "FreeGazaFromHamas"],
   },
 
 
@@ -272,20 +272,20 @@ export const posts = [
 {
     filename: "33.png",
     title: "Shame on You Harvard",
-    tags: ["HarvardUniversity", "istandwithisrael","StopAntisemitism"],
+    tags: ["University", "standwithisrael","StopAntisemitism"],
   },
 
 
 {
     filename: "34.png",
     title: "Nevr Again?",
-    tags: ["HAMASisISIS", "bringthemback", "standwithisrael"],
+    tags: ["HamasisISIS", "bringthemhome", "standwithisrael"],
   },
 
 {
     filename: "35.png",
     title: "They’re All the SAME",
-    tags: ["HAMASisISIS", "Nazism"],
+    tags: ["HamasisISIS", "Nazism"],
   },
 
 
@@ -306,34 +306,34 @@ export const posts = [
 {
     filename: "38.png",
     title: "I’M OK ?",
-    tags: ["HAMASisISIS", "innocentwomen", "innocentchildren"],
+    tags: ["HamasisISIS", "InnocentWomen", "InnocentChildren"],
   },
 
 
 {
     filename: "39.png",
     title: "Welcom to the Puppets Show",
-    tags: ["Hypocrisy", "HAMASisISIS", "FakeNews"],
+    tags: ["Hypocrisy", "HamasisISIS", "FakeNews"],
   },
 
 
 {
     filename: "40.png",
     title: "Oops..",
-    tags: ["HAMASisISIS", "killingitsowncivillians", "BlameIsrael"]
+    tags: ["HamasisISIS","Hypocrisy"]
   },
 
 
 {
     filename: "41.png",
     title: "Who is the Giving Tree?",
-    tags: ["HumanitarianCrisisLie", "PoisionedHamas"],
+    tags: ["HumanitarianCrisisLie", "HamasisISIS","Hypocrisy"],
   },
 
 {
     filename: "42.png",
     title: "World’s Twisted Point of View",
-    tags: ["HamasisISIS"],
+    tags: ["HamasisISIS", , "standwithisrael"],
   },
   
 {
