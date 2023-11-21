@@ -7,13 +7,14 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
 function Post({ title, fileName, tags }) {
   const handleOnClick = async () => {
-    console.log();
-
     if (!navigator.share) {
       alert("Your browser does not support sharing");
     }
     if (navigator.share) {
-      const url = `https://fbb6-62-219-65-138.ngrok-free.app/photos/${fileName}`;
+      const protocol = window.location.protocol;
+      const hostname = window.location.hostname;
+      const port = window.location.port;
+      const url = `${protocol}//${hostname}:${port}/photos/${fileName}`;
       const rawContent = await fetch(url);
       const blob = await rawContent.blob();
       const data = {
@@ -45,9 +46,7 @@ function Post({ title, fileName, tags }) {
   return (
     <div
       className="post"
-      style={{
-        borderRadius: "8px",
-        background: "var(--background-panel-day, #FFF)",
+	@@ -52,16 +49,14 @@ function Post({ title, fileName, tags }) {
         boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
       }}
     >
@@ -64,7 +63,3 @@ function Post({ title, fileName, tags }) {
         <BookmarkBorderIcon style={{ marginLeft: "5px" }} />
       </div>
     </div>
-  );
-}
-
-export default Post;
