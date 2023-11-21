@@ -338,7 +338,7 @@ export const posts = [
   
 {
     filename: "100.jpg",
-    title: "UN secretary general, UNICEF and United Nations do not care about Israeli children. #WorldChildrensDay #standwithisrael Credit:@ellakenan",
+    title: "UN secretary general, UNICEF and United Nations do not care about Israeli children. #WorldChildrensDay #standwithisrael Credit:ellakenan",
     tags: ["WorldChildrensDay", "standwithisrael","ellakenan" ],
   },
 
