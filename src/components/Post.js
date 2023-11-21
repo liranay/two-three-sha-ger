@@ -42,14 +42,12 @@ function Post({ title, fileName, tags }) {
       }
     }
   };
-
   return (
     <div
       className="post"
 	@@ -52,16 +49,14 @@ function Post({ title, fileName, tags }) {
         boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
       }}
-    >
       <img className="post__image" src={`/photos/${fileName}`} alt="dsa" />
       <h4 className="post__text">
         <strong>{title}</strong>
