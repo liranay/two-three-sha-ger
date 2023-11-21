@@ -9,7 +9,7 @@ export const LANGUAGE = {
 
 export const posts = [
   {
-    filename: "1.jpeg",
+    filename: "1.jpg",
     title: "Who is the villain?",
     tags: [
       "WarCrimes",
