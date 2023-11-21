@@ -406,12 +406,12 @@ export const posts = [
 {
     filename: "113.jpg",
     title: "Amongst the 241 people there are more than 30 babies and children, some without their parents! #bringthemhomenow #humanrights #humanity #standwithisrael #freegazafromhamas Credit:@ellakenan",
-    tags: ["InnocentChildren", "bringthemhome" "humanrights","ellakenan" ],
+    tags: ["InnocentChildren", "bringthemhome", "humanrights","ellakenan" ],
   },
   {
     filename: "114.jpg",
     title: "There cannot be a humanitarian ceasefire withou their release. 9 months-year-old babies! 85-year-olds! Please share.#HamasisISIS #TheWestlsNext #BringThemBack #BringThemHomeNow #standwithisrael Credit:@ellakenan",
-    tags: ["InnocentChildren", "bringthemhome" "humanrights","HamasisISIS","TheWestlsNext", "BringThemBack", "BringThemHomeNow", "standwithisrael", "ellakenan" ],
+    tags: ["InnocentChildren", "bringthemhome", "humanrights","HamasisISIS","TheWestlsNext", "BringThemBack", "BringThemHomeNow", "standwithisrael", "ellakenan" ],
   },
 ];
 export const getTags = () => {
