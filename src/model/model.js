@@ -226,11 +226,7 @@ export const posts = [
     tags: [ "WarCrimes", "Hostages"],
   },
 
-  {
-    filename: "26.jpeg",
-    title: "Where are you UN Woman?",
-    tags: ["WomanRights", "Hostages"],
-  },
+  
 
   {
     filename: "27.png",
@@ -307,13 +303,6 @@ export const posts = [
     filename: "38.png",
     title: "I’M OK ?",
     tags: ["HamasisISIS", "InnocentWomen", "InnocentChildren"],
-  },
-
-
-{
-    filename: "39.png",
-    title: "Welcom to the Puppets Show",
-    tags: ["Hypocrisy", "HamasisISIS", "FakeNews"],
   },
 
 
