@@ -18,11 +18,10 @@ class Tags(models.Model):
 
 # Post Model
 class Post(models.Model):
-    # Assuming multiple tags per post and a post can have the same tag multiple times
-    tags = models.ManyToManyField(Tags)
-    # For media, it's better to use a third-party package like django-storages for better handling, but for simplicity, we'll use a FileField
+    title = models.TextField()
+    description = models.TextField()
     media = models.FileField(upload_to='media/', blank=True, null=True)  # You can specify media types in your form or view
-    content = models.TextField()
+    tags = models.ManyToManyField(Tags)
 
     def __str__(self):
         return f"Post {self.id}"
