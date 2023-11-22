@@ -405,18 +405,18 @@ export const posts = [
   {
     filename: "82.jpg",
     title: "Ignoring the unprecedented, premeditated and extreme cruelty of the sexual violence committed by Hamas, means not only failing Israeli women but failing the ENTIRE international human rights system. #StandWithIsrael #WomenRights #MeJewMeToo Credit: @Tina Nordahl Nissim ",
-    tags: [“StandWithIsrael”, “WomenRights”, “MeJewMeToo”],
+    tags: ["StandWithIsrael", "WomenRights", "MeJewMeToo"],
   },
 {
     filename: "84.jpg",
     title: "#MeJewMeToo",
-    tags: [“StandWithIsrael”, “WomenRights”, “MeJewMeToo”],
+    tags: ["StandWithIsrael", "WomenRights", "MeJewMeToo"],
 
   },
 {
     filename: "83.jpg",
     title: "We fight to save our kids, Hamas uses their kids as human shields.#StandWithIsrael #HamasisISIS #CeaseFire Credit: @ellakenan ",
-    tags: [“StandWithIsrael”,  “HamasisISIS”,  “CeaseFire”, “ellakenan”],
+    tags: ["StandWithIsrael",  "HamasisISIS",  "CeaseFire", "ellakenan"],
   },
 ];
 export const getTags = () => {
