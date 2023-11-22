@@ -402,6 +402,22 @@ export const posts = [
     title: "There cannot be a humanitarian ceasefire withou their release. 9 months-year-old babies! 85-year-olds! Please share.#HamasisISIS #TheWestlsNext #BringThemBack #BringThemHomeNow #standwithisrael Credit:@ellakenan",
     tags: ["InnocentChildren", "bringthemhome", "humanrights","HamasisISIS","TheWestlsNext", "BringThemBack", "BringThemHomeNow", "standwithisrael", "ellakenan" ],
   },
+  {
+    filename: "82.jpg",
+    title: "Ignoring the unprecedented, premeditated and extreme cruelty of the sexual violence committed by Hamas, means not only failing Israeli women but failing the ENTIRE international human rights system. #StandWithIsrael #WomenRights #MeJewMeToo Credit: @Tina Nordahl Nissim ",
+    tags: [“StandWithIsrael”, “WomenRights”, “MeJewMeToo”],
+  },
+{
+    filename: "84.jpg",
+    title: "#MeJewMeToo",
+    tags: [“StandWithIsrael”, “WomenRights”, “MeJewMeToo”],
+
+  },
+{
+    filename: "83.jpg",
+    title: "We fight to save our kids, Hamas uses their kids as human shields.#StandWithIsrael #HamasisISIS #CeaseFire Credit: @ellakenan ",
+    tags: [“StandWithIsrael”,  “HamasisISIS”,  “CeaseFire”, “ellakenan”],
+  },
 ];
 export const getTags = () => {
   const allTags = _.uniq(_.flatMap(posts.map((post) => post.tags)));
