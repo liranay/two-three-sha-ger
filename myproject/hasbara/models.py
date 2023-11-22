@@ -19,7 +19,7 @@ class Tags(models.Model):
 # Post Model
 class Post(models.Model):
     title = models.TextField()
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
     media = models.FileField(upload_to='media/', blank=True, null=True)  # You can specify media types in your form or view
     tags = models.ManyToManyField(Tags)
 

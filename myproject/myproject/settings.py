@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-@gr!b9rrt9y!^b8)ucf(s^gycz66du0rea41v3z16fe_z1n67#
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'hasbara.User'
 
@@ -124,3 +124,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+# Media Root: Absolute filesystem path to the directory that will hold user-uploaded files.
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Media URL: URL that handles the media served from MEDIA_ROOT.
+MEDIA_URL = '/media/'
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
