@@ -415,8 +415,8 @@ export const posts = [
   },
 {
     filename: "85.jpg",
-    title: "We fight to save our kids, Hamas uses their kids as human shields.#StandWithIsrael #HamasisISIS #CeaseFire Credit: @ellakenan ",
-    tags: ["StandWithIsrael",  "HamasisISIS",  "CeaseFire", "ellakenan"],
+    title: "We fight to save our kids, Hamas uses their kids as human shields.#StandWithIsrael #CeaseFire Credit: @ellakenan ",
+    tags: ["StandWithIsrael", "CeaseFire", "ellakenan"],
   },
 ];
 export const getTags = () => {
