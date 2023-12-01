@@ -1,42 +1,44 @@
-import React from "react"; // You don't need to import useState if you're not using it
+import React, { useState } from "react";
 import { Image } from "react-bootstrap";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
+import CommentIcon from "@mui/icons-material/Comment";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
 function Post({ title, fileName, tags }) {
   const handleOnClick = async () => {
     if (!navigator.share) {
       alert("Your browser does not support sharing");
-      return; // Return early if sharing is not supported
     }
-
-    const protocol = window.location.protocol;
-    const hostname = window.location.hostname;
-    const port = window.location.port;
-    const url = `${protocol}//${hostname}:${port}/photos/${fileName}`;
-
-    try {
+    if (navigator.share) {
+      const protocol = window.location.protocol;
+      const hostname = window.location.hostname;
+      const port = window.location.port;
+      const url = `${protocol}//${hostname}:${port}/photos/${fileName}`;
       const rawContent = await fetch(url);
-
-      if (!rawContent.ok) {
-        throw new Error("Network response was not ok");
-      }
-
       const blob = await rawContent.blob();
       const data = {
-        files: [new File([blob], fileName, { type: "image/png" })],
+        files: [
+          new File([blob], fileName, {
+            type: "image/png",
+          }),
+        ],
         title,
         text: title,
       };
 
       if (navigator.canShare(data)) {
-        await navigator.share(data);
+        try {
+          await navigator.share(data);
+        } catch (err) {
+          if (err.name !== "AbortError") {
+            console.error(err.name, err.message);
+          }
+        } finally {
+          return;
+        }
       } else {
-        alert("Can't share");
-      }
-    } catch (err) {
-      if (err.name !== "AbortError") {
-        console.error(err.name, err.message);
+        alert("can't share");
       }
     }
   };
@@ -57,7 +59,9 @@ function Post({ title, fileName, tags }) {
       <h6>{tags.map((tag) => `#${tag} `)}</h6>
 
       <div style={{ display: "flex", margin: "15px" }}>
+        {/* <FavoriteBorderIcon /> */}
         <ShareIcon style={{ marginLeft: "5px" }} onClick={handleOnClick} />
+        {/* <CommentIcon style={{ marginLeft: "5px" }} /> */}
         <BookmarkBorderIcon style={{ marginLeft: "5px" }} />
       </div>
     </div>

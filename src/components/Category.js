@@ -1,10 +1,8 @@
+import React, { useState } from 'react';
 import { Dropdown } from 'react-bootstrap';
-import { useState } from 'react';
 
-
-
-export default function Sorter({ onCategorySelected, sortSelected }) {
-  const [selectedItem, setSelectedItem] = useState('Select Category');
+const Category = ({ onCategorySelected }) => {
+  const [selectedCategory, setSelectedCategory] = useState('Select Category');
 
   const categories = [
     "Hostages, Victims & Survivors",
@@ -15,25 +13,22 @@ export default function Sorter({ onCategorySelected, sortSelected }) {
     "Media and Public Perception",
     "Terrorism and Security",
     "International Conflict",
-    "Influencers"
+    "Influencers",
   ];
 
   const handleSelect = (e) => {
-    setSelectedItem(e);
-    if (categories.includes(e)) {
-      onCategorySelected(e);
-    }
+    setSelectedCategory(e);
+    onCategorySelected(e);
   };
 
   return (
     <div>
       <Dropdown onSelect={handleSelect}>
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          {selectedItem}
+          {selectedCategory}
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Header>Categories</Dropdown.Header>
           {categories.map((category, index) => (
             <Dropdown.Item key={index} eventKey={category}>
               {category}
@@ -43,4 +38,6 @@ export default function Sorter({ onCategorySelected, sortSelected }) {
       </Dropdown>
     </div>
   );
-}
+};
+
+export default Category;

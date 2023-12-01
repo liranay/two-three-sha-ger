@@ -1,12 +1,14 @@
-export default function Tag({ value, tagSelected }) {
+export default function Tag({ value, category, tagSelected }) {
   return (
     <div
       style={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         margin: "8px",
-        height: "40px",
+        padding: "4px",
+        height: "auto",
         textAlign: "center",
         color: "#27272A",
         borderRadius: "8px",
@@ -18,7 +20,8 @@ export default function Tag({ value, tagSelected }) {
         tagSelected(value);
       }}
     >
-      #{value}
+      <span>#{value}</span>
+      <small style={{ color: "#005BE7" }}>{category}</small>
     </div>
   );
 }
